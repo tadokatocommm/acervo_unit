@@ -10,17 +10,17 @@
 header {
     position: relative;
     top: 0;
-    height: auto;
+    height: 80;
     width: 100%;
 }
 
 nav {
     position: fixed;
     top: 0;
-    height: 100px;
+    height: 80px;
     width: 100%;
     z-index: 1;
-    background-color: #03045e;
+    background-color: #15363b;
 }
 
 nav:after {
@@ -34,12 +34,13 @@ nav:after {
     position: relative;
     margin-right: auto;
     margin-left: auto;
+    margin-top: -6px;
 }
 
 #logo {
     width: 50px;
     height: 50px;
-    margin-top: 25px;
+    margin-top: 20px;
     position: fixed;
     left: 0px;
     padding-left: 5px;
@@ -60,13 +61,9 @@ nav:after {
 
 .nav-container li a {
     text-decoration: none;
-    color: rgb(100, 116, 150);
+    color: #FFF;
     transition: .5s;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav-container li a:hover {
-    color: #01a2f3;
 }
 
 #main-banner {
@@ -114,7 +111,7 @@ nav:after {
 }
 
 #search-form input[type=submit] {
-    background-color: #01a2f3;
+    background-color: #15363b;
     text-transform: uppercase;
     color: #FFF;
     cursor: pointer;
